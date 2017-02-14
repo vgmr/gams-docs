@@ -1,4 +1,4 @@
-# GAMS User Manual
+# GAMS User Manual.
 
 
 ## Dashboard
