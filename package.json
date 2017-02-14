@@ -1,0 +1,20 @@
+{
+  "name": "gams-docs",
+  "version": "1.0.1",
+  "description": "Gams documentation",
+  "main": "site/index.html",
+  "directories": {
+    "doc": "site"
+  },
+  "scripts": {
+    "build": "docker run -v $(pwd):/home/user --rm -p 8000:8000 thinkcube/mkdocs mkdocs build",
+    "start": "mkdocs serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://pioneermobile.visualstudio.com/DefaultCollection/PioneerMobile/_git/GAMS-DOCS"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
