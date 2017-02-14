@@ -7,12 +7,12 @@
     "doc": "site"
   },
   "scripts": {
-    "build": "docker run -v $(pwd):/home/user --rm -p 8000:8000 thinkcube/mkdocs mkdocs build",
+    "build": "./scripts/build.sh",
     "start": "mkdocs serve"
   },
   "repository": {
     "type": "git",
-    "url": "https://pioneermobile.visualstudio.com/DefaultCollection/PioneerMobile/_git/GAMS-DOCS"
+    "url": "https://github.com/vgmr/gams-docs"
   },
   "keywords": [],
   "author": "",
