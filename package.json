@@ -8,6 +8,7 @@
   },
   "scripts": {
     "build": "./scripts/build.sh",
+    "release": "node ./scripts/release.js",
     "start": "mkdocs serve"
   },
   "repository": {
@@ -16,5 +17,8 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "cross-spawn": "^5.0.1"
+  }
 }

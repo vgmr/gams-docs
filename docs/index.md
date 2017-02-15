@@ -1,9 +1,9 @@
-# GAMS User Manual.
+# GAMS User Manual
 
 
 ## Dashboard
 
-> The entry point of GAMS is the dashboad, it includes all the available widget granted to the connected user.
+> The entry point of GAMS is the dashboad, it includes all the available widgets granted to the connected user.
 ![alt](./images/dashboard.png)
 
 
