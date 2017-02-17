@@ -2,4 +2,5 @@ site_name: GAMS User Manual
 pages:
     - Home: index.md
     - About: about.md
+    - Barbara: barbara.md
 theme: readthedocs
